@@ -1,0 +1,10 @@
+Start test
+Click contacts
+Element is displayed
+Click banner tensor
+True value url: https://tensor.ru/
+Action move to section strength in people
+Click more details link
+True value url: https://tensor.ru/about
+Action move to section working
+Finish test

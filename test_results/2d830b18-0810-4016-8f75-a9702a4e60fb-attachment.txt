@@ -1,0 +1,10 @@
+Start test
+True value url: https://sbis.ru/
+Action move to section footer
+Click download sbis
+Click sbis plugin
+Click download web installer
+File Downloaded Successfully..
+Required file in directory
+Current text: Скачать (Exe 7.21 МБ)
+Finish test

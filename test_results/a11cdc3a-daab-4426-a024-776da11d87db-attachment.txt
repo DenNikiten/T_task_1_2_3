@@ -1,0 +1,9 @@
+Start test
+Click contacts
+True value word
+Click region button
+Input new region
+Click new region button
+Current url: https://sbis.ru/contacts/41-kamchatskij-kraj?tab=clients
+True value title
+Finish test
