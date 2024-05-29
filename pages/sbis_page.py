@@ -28,7 +28,7 @@ class SbisPage(BasePage):
 
     # Check
 
-    def is_element_in_footer_exist(self):
+    def download_sbis_link_in_footer_exist(self):
         return self.is_element_exist(self.download_sbis_link)
 
     # Actions
@@ -65,7 +65,7 @@ class SbisPage(BasePage):
     def find_and_go_to_download_sbis(self):
         with allure.step("Find and go to download sbis"):
             Logger.add_start_step(method="find_and_go_to_download_sbis")
-            self.is_element_in_footer_exist()
+            self.download_sbis_link_in_footer_exist()
             self.action_move_to_section_footer()
             self.click_download_sbis()
             assert self.text_contains_in_url(self.sbis_download_page_url_text)
